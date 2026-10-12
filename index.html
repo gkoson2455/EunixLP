@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eunix &ndash; Frontend &amp; Web Design</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <img src="logo.png" alt="Eunix logo" class="brand-logo" onerror="this.remove()">
+      <span class="grad" data-cms="brand.name">EUNIX</span>
+    </a>
+    <nav aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#contact" class="btn btn-main">Start a project</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <div class="hero">
+    <canvas id="wave" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <h1>Websites that look sharp and <span class="grad">load fast.</span></h1>
+      <p class="lead" data-cms="hero.subheading">Eunix designs and codes websites for businesses and founders. One person plans, designs and builds your site, so nothing gets lost between a designer and a developer.</p>
+      <div class="cta">
+        <a class="btn btn-main" href="#contact">Get a free quote</a>
+        <a class="btn btn-ghost" href="#services">See what I build</a>
+      </div>
+      <div class="hero-meta">
+        <div><b>Design + code</b>One person, start to finish</div>
+        <div><b>Mobile first</b>Built for phones, then desktops</div>
+        <div><b>24 hours</b>Reply time on every enquiry</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="wrap">
+      <h2 data-cms="services.title">What you can hire Eunix for</h2>
+      <p class="sub" data-cms="services.subtitle">Pick one service or combine them. Every project ends with a site you own and can edit.</p>
+      <div class="svc">
+        <div class="row">
+          <h3>Web design</h3>
+          <p>A clear layout, a colour palette and typography that match your brand, designed for your page before anything is coded.</p>
+          <ul><li>Brand-matched UI design</li><li>Mobile and desktop layouts</li><li>Clickable prototype</li></ul>
+        </div>
+        <div class="row">
+          <h3>Frontend development</h3>
+          <p>Clean HTML, CSS and JavaScript or React, built to be fast, accessible and easy for the next developer to read.</p>
+          <ul><li>Responsive builds</li><li>Animations and interactions</li><li>Speed and SEO basics</li></ul>
+        </div>
+        <div class="row">
+          <h3>Landing pages</h3>
+          <p>One focused page that explains your offer and gets visitors to sign up, buy or book a call.</p>
+          <ul><li>Copy and layout together</li><li>Forms and payment links</li><li>Delivered in about a week</li></ul>
+        </div>
+        <div class="row">
+          <h3>Redesigns and fixes</h3>
+          <p>Already have a site that feels slow, dated or broken on phones? I refresh it without starting from zero.</p>
+          <ul><li>Design refresh</li><li>Performance clean-up</li><li>Bug fixes</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="steps" id="process">
+    <div class="wrap">
+      <h2>How a project runs</h2>
+      <p class="sub">Four steps, with a check-in after each one.</p>
+      <ol class="flow">
+        <li><h3>Brief</h3><p>You tell me your goal, audience and deadline. I reply with a quote and timeline.</p></li>
+        <li><h3>Design</h3><p>You review the layout and style and request changes before any code is written.</p></li>
+        <li><h3>Build</h3><p>I code the approved design and share a live preview link you can open on your phone.</p></li>
+        <li><h3>Launch</h3><p>I test, publish and hand over the files, so the site is yours.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Tools -->
+  <section>
+    <div class="wrap">
+      <h2>Tools I build with</h2>
+      <p class="sub">Modern, widely used tools, so you are never locked in.</p>
+      <div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Tailwind CSS</span><span>Figma</span><span>Git</span><span>Accessibility checks</span></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="wrap box">
+      <div>
+        <h2>Tell me about your <span class="grad">project</span></h2>
+        <p class="sub" data-cms="contact.subtitle">Share what you need and roughly when. You get a reply with a quote and next steps within 24 hours.</p>
+      </div>
+      <form id="f">
+        <label>Your name<input name="name" required autocomplete="name"></label>
+        <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        <label>What do you need?
+          <select name="type">
+            <option>Web design</option>
+            <option>Frontend development</option>
+            <option>Landing page</option>
+            <option>Redesign or fixes</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>Project details<textarea name="msg" required></textarea></label>
+        <button class="btn btn-main" type="submit">Send enquiry</button>
+        <p id="ok" role="status">Your email app should open with the enquiry ready to send.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span><span class="grad foot-brand">EUNIX</span> &nbsp;Frontend &amp; Web Design</span>
+    <span>&copy; 2026 Eunix</span>
+  </div>
+</footer>
+
+</body>
+</html>

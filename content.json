@@ -1,0 +1,16 @@
+{
+  "brand": {
+    "name": "EUNIX"
+  },
+  "hero": {
+    "subheading": "Eunix designs and codes websites for businesses and founders. One person plans, designs and builds your site, so nothing gets lost between a designer and a developer."
+  },
+  "services": {
+    "title": "What you can hire Eunix for",
+    "subtitle": "Pick one service or combine them. Every project ends with a site you own and can edit."
+  },
+  "contact": {
+    "subtitle": "Share what you need and roughly when. You get a reply with a quote and next steps within 24 hours.",
+    "email": "hello@eunix.dev"
+  }
+}
